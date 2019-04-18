@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	display: flex;
+	max-width: 1084px;
+}
+header{
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	background-color: #3395F8;
+	height: 1080px;
+	width: 200px;
+	color: white;
+}
+.img{
+	width: 150px;
+	height: 50px;
+	margin-left: 30px;
+	margin-top: 100px;
+}
+nav a{
+	color: white;
+}
+
+.elements{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	list-style-type: none;
+	margin-top: 20px;
+}
+.elements li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+	height: 30px;
+	width: 160px;
+	border-radius: 50px;
+	background-color: #84C7CF;
+}
+.elements li:hover{
+	background: #3395F8;
+}
+.elements li a:hover{
+	color: black;
+}
+.logo{
+	position: relative;
+	width: 50px;
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.first-box{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 60px;
+	margin-top: 30px;
+}
+.input, .status, .select{
+	width: 600px;
+	height: 25px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+.input, .status{
+	background: #DCE0E5;
+}
+.first-line{
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+	height: 400px;
+	width: 900px;
+	background-color: #84C7CF;
+	color: white;
+	text-align: center;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.third-box input{
+	width: 500px;
+	margin-top: 10px;
+}
+.third-box select{
+	width: 500px;
+	margin-top: 10px;
+}
+button{
+	background-color: #28D128;
+	height: 20px;
+}
+.grey{
+	background: #DCE0E5;
+}
+.first-line{
+	margin-bottom: 50px;
+}
+.second-line{
+	display: flex;
+	align-items: center;
+	margin-left: 40px;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+	height: 300px;
+	width: 1000px;
+	background-color: #84C7CF;
+	color: white;
+	text-align: center;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.third-line{
+	margin-left: 25px;
+}
+.second-line input{
+	width: 300px;
+}
+.second-line select{
+	width: 300px;
+}

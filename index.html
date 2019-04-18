@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>მთავარი გვერდი</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<img src="img/STOPC.png" class="img">
+		<nav class="nav">
+			<ul class="elements">
+				<li>
+					<a href="index.html">ადმინისტრირება</a>
+				</li>
+				<li>
+					<a href="#!">ანალიტიკა (მართვა)</a>
+				</li>
+				<li>
+					<a href="komponent.html">კომპონენტი</a>
+				</li>
+				<li>
+					<a href="konfirmaciebi.html">კონფირმაციები</a>
+				</li>
+				<li>
+					<a href="#!">ანალიტიკა</a>
+				</li>
+				<li>
+					<a href="report.html">რეპორტი</a>
+				</li>
+				<li>
+					<a href="contact.html">დახმარება</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="logo">
+			<img src="img/logo1.png" class="logo1">
+		    <img src="img/logo2.png" class="logo2">
+		</div>
+		
+	</header>
+
+	<div class="dropdown">
+		<button class="filter">ფილტრი</button>
+		<section>			
+			<form class="input">
+				15 ნიშნა კოდი <input class="input-form" type="text" name="კოდი">
+				პირადი ნომერი <input class="input-form" type="text" name="პირადინომერი">
+			</form>
+			<form class="form">
+				<span>სტატუსი</span>
+				<select>
+					<option value="selectoption">-Select an Option</option>
+				</select>
+				<span>სქესი</span>
+				<select>
+					<option value="gender">-Select an Option</option>
+				</select>	
+			</form>
+			<button class="search" type="search" name="search">ძებნა</button>
+		</section>		
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('button').click(function(){
+				$('section').toggleClass('active')
+			})
+		})
+	</script>
+	<div class="data">
+		<form class="info">
+			<span class="title">პერიოდი მოთხოვნის ჯგუფური ფორმისთვის </span>
+			<input class="first-child" type="text" name="form" placeholder="28.02.2019">
+			<input type="text" name="form" placeholder="29.03.2013">
+			<input class="last-child" type="text" name="search" placeholder="search">
+		</form>
+		<table>
+			<tr>
+				<th>Trasnportation Status</th>
+				<th>Status Change Date</th>
+				<th>Days Left</th>
+				<th>User</th>
+				<th>Provider Settlement</th>
+				<th>სამიზნე ჯგუფი</th>
+				<th>15 ნიშნა კოდი</th>
+				<th>პირადი ნომერი</th>
+				<th>შემთხვევის სტატუსი</th>
+				<th>გვარი</th>
+				<th>სახელი</th>
+				<th>დაბადების თარიღი</th>
+				<th>სტატუსი</th>
+				<th>სქესი</th>
+				<th>წყარო</th>
+			</tr>
+			<tr>
+				<td>None</td>
+				<td></td>
+				<td></td>
+				<td>51001002515 ზაირა კალანდია – წალენჯიხა</td>
+				<td>ნაკიფუ (სოფელი)</td>
+				<td>სამეგრელოს პილოტი</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>10.10.1949</td>
+				<td></td>
+				<td>მდედრობითი</td>
+				<td>მოდულში ხელით შეტანილი</td>
+			</tr>
+			<tr>
+				<td>None</td>
+				<td></td>
+				<td></td>
+				<td>404869567-შპს "არქიმედეს კლინიკა"</td>
+				<td>სენაკი (ქალაქი)</td>
+				<td>ჰოსპიტალიზირებული პაციენტები</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>1990.08.23</td>
+				<td></td>
+				<td>მდედრობითი</td>
+				<td>მოდულში ხელით შეტანილი</td>
+			</tr>
+			<tr>
+				<td>None</td>
+				<td></td>
+				<td></td>
+				<td>211324351–ს.ს.ი.პ ლ. საყვარელიძის სახელობის კლინიკა</td>
+				<td>ზუგდიდი (კლინიკა)</td>
+				<td>ზოგადი პოპულაცია</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>1980.09.01</td>
+				<td></td>
+				<td>მამრობითი</td>
+				<td>მოდულში ხელით შეტანილი</td>
+			</tr>
+			<tr>
+				<td>None</td>
+				<td></td>
+				<td></td>
+				<td>202349306 ა(ა)იპ "ახალი ვექტორი"</td>
+				<td>ვაკე (ქალაქი)</td>
+				<td>სხვა სარისკო ქცევის მქონე</td>
+				<td>მ06მაზუ140775თ1</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>მამრობითი</td>
+				<td>მოდულში ხელით შეტანილი</td>
+			</tr>
+			<tr>
+				<td>None</td>
+				<td></td>
+				<td></td>
+				<td>419994741 შპს "ნლი"</td>
+				<td>ზუგდიდი (ქალაქი)</td>
+				<td>ზოგადი პოპულაცია</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>2012.03.31</td>
+				<td></td>
+				<td>მამრობითი</td>
+				<td>მოდულში ხელით შეტანილი</td>
+			</tr>
+		</table>	
+	</div>
+	
+
+</body>
+</html>
